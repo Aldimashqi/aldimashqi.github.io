@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Projekte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Zum Inhalt springen</a>
+    <div class="layout">
+        <nav id="navbar"></nav>
+        <main id="main">
+            <h1>Meine Projekte</h1>
+            <div class="table-container">
+                <table class="projects-table" aria-label="Übersicht aller Projekte">
+                    <caption>Übersicht der absolvierten und laufenden Projekte</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Projekt</th>
+                            <th scope="col">Laufzeit</th>
+                            <th scope="col">Beschreibung</th>
+                            <th scope="col">Tech</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">TaleemSpace</th>
+                            <td>seit 07/2025 in Entwicklung</td>
+                            <td>Entwicklung einer barrierefreien Lernplattform für strukturiertes und effizientes
+                                Lernen, optimiert für
+                                Screenreader. Implementierung von sicheren Benutzerauthentifizierungs-Cookies und
+                                Hashing-Verfahren durch
+                                Argon2.</td>
+                            <td>Python, SQL, HTML, Argon2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">VocabTrainer</th>
+                            <td>02/2025–04/2025</td>
+                            <td>Barrierefreie Lernanwendung nach dem 5-Boxen-System zum Englischlernen im Zweier-Team.
+                                Migration der
+                                Speicherung von
+                                LocalStorage im Browser zu PostgreSQL. Meine Rolle: Konzeption, PostgreSQL-Anbindung und
+                                Testen des
+                                HTML-Frontends auf Barrierefreiheit.
+                            </td>
+                            <td>JavaScript, HTML, SQL, Node.js, npm</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Selbstgehostete Server-Infrastruktur &amp; Netzwerke</th>
+                            <td>fortlaufend</td>
+                            <td>Eigener Aufbau und Administration eines AlmaLinux-VPS. Betrieb und Absicherung
+                                gehosteter Dienste
+                                wie Nextcloud, Vaultwarden, Headscale. Automatische Updates, Caddy als Reverse Proxy zur
+                                Reduzierung offener
+                                Ports zur Minimierung der Netzwerk-Angriffsfläche, Passkey-basierte Authentifizierung
+                                für SSH und erzwungenes
+                                2FA in Nextcloud.</td>
+                            <td>AlmaLinux, Caddy, Nextcloud, Vaultwarden, Headscale, SSH, YubiKey, Docker</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
